@@ -1,0 +1,225 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Heading */
+.heading {
+  padding: 3% 7%;
+  background-color: #11052C;
+}
+
+.my-name {
+  text-align: center;
+  font-family: 'Mukta';
+  font-size: 4rem;
+  background-color: #11052C;
+  color: #FFE459;
+  margin: 0;
+}
+
+/* Menu */
+#menu {
+  padding: 0 7% 3%;
+  background-color: #11052C;
+}
+
+.fa-bars {
+  color: #FFE459;
+}
+
+.fas-menu-icon {
+  color: #fff;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.navbar {
+  background-color: #11052C;
+}
+
+.nav-link {
+  color: #F43B86;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: 'Mukta';
+}
+
+.nav-item{
+  padding-right: 25px;
+}
+
+/* One Styling */
+/* .one::after,
+.one::before {
+  position: absolute;
+  content:'';
+  width: 150px;
+  height: 150px;
+  background: #11052C;
+  bottom: 0;
+}
+
+.one::before {
+  top: 18%;
+  right: 50%;
+  transform: skew(0, 20deg);
+}
+
+.one::after {
+  top: 18%;
+  left: 50%;
+  transform: skew(0, -20deg);
+} */
+
+/* About */
+#about {
+  padding: 3% 7%;
+  text-align: center;
+  background-color: #3D087B;
+  color: #fff;
+}
+
+.section-title {
+  font-family: 'Merriweather';
+  font-size: 3rem;
+  padding: 3% 7% 1%;
+}
+
+.about-title-break {
+  border: none;
+  width: 30%;
+  height: 29px;
+  background:
+  linear-gradient(120deg, #3D087B 25%, transparent 25%) -10px 0,
+
+  linear-gradient(225deg, #3D087B 25%, transparent 25%) -10px 0,
+
+  linear-gradient(315deg, #3D087B 25%, transparent 25%),
+
+  linear-gradient(45deg, #3D087B 25%, transparent 25%);
+
+  background-size: 30px 30px;
+  background-color: #F43B86;
+}
+
+.josh-photo {
+  width: 18%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 10;
+}
+
+.content {
+  text-align: left;
+}
+
+.column-1 {
+  padding-top: 3%;
+  line-height: 2rem;
+  font-size: 1rem;
+  font-family: 'Mukta';
+}
+
+.column-2 {
+  padding-left: 5%;
+  padding-top: 3%;
+  line-height: 2rem;
+  font-family: 'Mukta'
+}
+
+.resume {
+  padding-left: 5%;
+}
+
+.description {
+  padding-right: 3%;
+}
+
+.light-text {
+  font-family: 'Merriweather';
+  font-size: .85rem;
+}
+
+
+/* Projects */
+#projects {
+  background-color: #F43B86;
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.project-title {
+  font-family: 'Merriweather';
+  color: #fff;
+  font-size: 3rem;
+  padding: 3% 7% 0;
+}
+
+.about-title-break2 {
+  border: none;
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  height: 29px;
+  background:
+  linear-gradient(120deg, #F43B86 25%, transparent 25%) -10px 0,
+
+  linear-gradient(225deg, #F43B86 25%, transparent 25%) -10px 0,
+
+  linear-gradient(315deg, #F43B86 25%, transparent 25%),
+
+  linear-gradient(45deg, #F43B86 25%, transparent 25%);
+
+  background-size: 30px 30px;
+  background-color: #FFE459;
+}
+
+/* Contact */
+#contact {
+  background-color: #FFE459;
+  color: #11052C;
+  text-align: center;
+  padding: 3% 7% 5%;
+  margin: 0;
+}
+
+.contact-me {
+  font-size: 1.35rem;
+  padding: 2% 2.5%;
+  color: #11052C;
+}
+
+@media (max-width:600px) {
+  .my-name {
+  	font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .description{
+    padding:0;
+  }
+}
